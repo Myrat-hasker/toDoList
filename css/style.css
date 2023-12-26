@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ecf0f3;
+    font-family: sans-serif;
+    font-size: small;
+    display: flex;
+}
+
+.card{
+    border-radius: 1.5rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.5rem;
+    margin-block: 1rem;
+    background: white;
+    box-shadow: 0px 0px 6px 0px #969696;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form input{
+    width: 94%;
+    height: 1.5rem;
+    border-radius: 1rem;
+    border: solid 1.5px #c7c7c7;
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
+.form button{
+    color: white;
+    border-radius: 1rem;
+    font-weight: 700;
+    font-size: x-large;
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(to bottom right, #e000ff, #fff600);
+    border: 2px solid #ff7373;
+}
+table{
+    width: 95%;
+    border-collapse: collapse;
+    margin-block: 1rem;
+}
+tr{
+    border: solid 1px grey;
+}
+tr:nth-child(even){
+    background-color: rgb(225, 225, 225);
+}
+tr:hover{
+    background-color: #bbbbbb;
+}
+td{
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+.x{
+    width: min-content;
+    padding: 0;
+}
+.done{
+    width: min-content;
+}
+.nav{
+    margin-block: auto;
+    width: 5%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.pages{
+    width: 2.2rem;
+    border: solid 1px #848484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0rem 1rem 1rem 0rem;
+    height: 100%;
+    border-left: none;
+    box-shadow: 0px 0px 6px 2px #969696;
+    background: #ffffff;
+    color: gray;
+}
+
+.nav a{
+    height: 50%;
+    margin-block: 0.5rem;
+    width: min-content;
+    text-decoration: none;
+}
+.pages p{
+    transform: rotate(90deg);
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.container{
+    width: 95%;
+}
+.red{
+    background-color: red;
+}
+.pushed{
+    background-color: white;
+    box-shadow: none;
+    border: solid 1.2px #b2b2b2;
+    border-left: none;
+    color: black;
+}
+
+
